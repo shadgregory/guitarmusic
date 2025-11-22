@@ -163,8 +163,9 @@ TrackAVoiceAMusic = #(define-music-function (parser location inTab) (boolean?)
       <cis'\2 gis\3 d\4 >8 r8 <cis'\2 gis\3 d\4 >8 <cis'\2 gis\3 d\4 >8 <b\2>8 <gis\3>8
                                 % 61
       <fis'\1 cis'\2 b,\5 >8 r8 <fis'\1 cis'\2 b,\5 >8 <cis'\2 fis'\1 b,\5 >8 <a'\1>8 <fis'\1 b,\5 >8 
-      <b,\5 e'~\1 d'\2 >8 <cis\5>8 <b,\5>8 <gis,\6>8 <fis,\6>8 <e,\6>8 | 
-      <fis~\4>4 <cis'\2 e,\6 a\3 >8 <fis\4 cis'\2 e,\6 a\3 >4 <e\4>8 |
+      <b,\5 e'~\1 d'\2 >8 <cis\5>8 <b,\5>8 <gis,\6>8 <fis,\6>8 <e,\6>8 |
+                                % 63
+      <fis~\4>4 <cis'\2 e,\6 a\3 >8 <cis'\2 e,\6 a\3 >4 <e\4>8 |
       <gis\3>4 <c'\2 e'\1 e,\6 >8 <c'\2 e'\1 e,\6 >4 <fis\4>16 <gis\3>16 |
       <fis\4>8\staccato <e\4>8\staccato <fis\4>8\staccato <a\3>8\staccato <cis'\2>8\staccato <gis'\1>8\staccato | %%65
       <fis'~\1>8 <cis'\2 ais\3 >8 <cis'\2 ais\3 >8 <fis'\1>8 <e'\2>8 <cis'\2>8 

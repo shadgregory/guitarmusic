@@ -22,7 +22,7 @@ melody = \relative c'' {
   r8 a16 d r8 dis8 e d |
   <e, gis b>8\f <e gis b> <e gis b> e'16 \mf _(f) e d c b | % 9
   <e, a c>8\f <e a c> <e a c> e'16 \mf d c b a g |
-  <a, d a'>8 <a' d, > <a, d a'> d'16 e d (c) b a |
+  <a, d a'>8 <a' d, > <a, d a'> d'16 e d_ (c) b a |
   <d, g b>8 <d g b> <d g b> g16_ (a) b c d e | % 12
   d8 d d b c e |
   d8 d d g16 fis e d c b |
@@ -33,7 +33,7 @@ melody = \relative c'' {
   cis16_ (d) e fis a_ (g) fis e d_ (cis) b a | % 19
   r8 a16 d r8 dis e d |
   d16 c b c a8 cis d c |
-  c16_ (b) ais b g8 g'16 fis e d (c) b |
+  c16_ (b) ais b g8 g'16 fis e d_ (c) b |
   <a c>16 r16 <gis b> r16 <a c> r <b d> r <c e> r16 <d b> r16 | % 23
   <g, b>16 r16 <b d> r16 <e g> r <d fis> r <c e> r16 <d b> r16 |
   <a c>16 r16 <gis b> r16 <a c> r <b d> r <c e> r16 <d b> r16 |
@@ -44,24 +44,24 @@ melody = \relative c'' {
   b8 c cis d e d | % 30
   e16 c g c r4 e16 r16 g r16 |
   d8 g16 fis e d_ (c) b r4 |
-  r8 a16 d fis e d c b a g fis |
-  g8 g g g16 (a) b c (d) e |
+  r8 a16 d fis e d c b a g fis | % 33
+  g8 g g g16_ (a) b c_ (d) e |
   d8 d d b c e |
-  d8 d d g16 fis e d (c) b |
-  c8 c c e d c |
-  <d, g b>8 d'16 (c) b (c) a b g (a) b c |
+  d8 d d g16 fis e d_ (c) b | %36
+  c8 c c e d c | % 37
+  <d, g b>8 d'16_ (c) b_ (c) a b g_ (a) b c |
   d8 d d4 \slashedGrace fis8 g8 e |
   \slashedGrace d cis16 b cis d cis8 a a' g |
-  g16 (fis) e d cis (b) cis g r4 |
+  g16_ (fis) e d cis_ (b) cis g r4 |
   r8 a16 d r8 dis8 e d |
-  <e, gis b>8 <e gis b>8 <e gis b>8 e'16 f e d (c) b|
-  <e, a c>8 <e a c>8 <e a c>8 e'16 d c (b) a g|
-  <a, d a'>8 <a d a'>8 <a d a'>8 d'16 e d (c) b a|
-  <d, g b>8 <d g b>8 <d g b>8 g16 (a) b c (d) e|
+  <e, gis b>8 <e gis b>8 <e gis b>8 e'16 f e d_ (c) b|
+  <e, a c>8 <e a c>8 <e a c>8 e'16 d c_ (b) a g|
+  <a, d a'>8 <a d a'>8 <a d a'>8 d'16 e d_ (c) b a|
+  <d, g b>8 <d g b>8 <d g b>8 g16_ (a) b c_ (d) e|
   d8 d d b c e |
-  d8 d8 d8 g16 (fis) e d (c) b |
-  c8 c c e d c |
-  <b g d>8 d16 (c) b (c) a b g8 g |
+  d8 d8 d8 g16_ (fis) e d_ (c) b |
+  c8 c c e d c | % 49
+  <b g d>8 d16_ (c) b_ (c) a b g8 g |
   c8 c c e d c | % 51
   <d b>8 f e d c b |
   c8 c c e d c | % 53
@@ -76,12 +76,12 @@ melody = \relative c'' {
   b8 b b f' e d |
   c8 c c e d c |
   <b d,>8 f' e d c b |
-  c8 c c e d c |
+  c8 c c e d c | % 65
   b8 b b f' e d |
   c8 c c e d b |
-  c4 r4 g16 (a) b c |
+  c4 r4 g16_ (a) b c | % 68
   d8 d d b c e |
-  d8 d d g16 (fis) e d (c) b |
+  d8 d d g16_ (fis) e d_ (c) b |
   c8 c c e d c |
   <d, g b>8 d'16_ (c) b_ (c) a b g_ (a) b c |
   d8 d d g \slashedGrace fis g e |
@@ -109,8 +109,8 @@ bass = \relative c'' {
   g,4 r4 r4 | % 4
   b16 g' d g b4 r4 |
   a,4 a a |
-  d r4 fis16 (e) d cis|
-  d16 (fis) r8 d8 r8 r4 |
+  d r4 fis16^ (e) d cis|
+  d16^ (fis) r8 d8 r8 r4 |
   e,4 e r4 | % 9
   a4 a r4 |
   fis8 a fis4 r4 |
@@ -129,13 +129,13 @@ bass = \relative c'' {
   r16 d16 r16 d16 r16 d16 r16 d16 r16 d16 r16 d16 |
   r16 d16 r16 d16 r16 d16 r16 d16 r16 d16 r16 d16 |
   r16 d16 r16 d16 r16 d16 r16 d16 r16 d16 r16 d16 | % 26
-  c4 e16 g c g r16 g r g |
+  c4 e16 g c g r16 g r g | % 27
   b,4 r4 a'16^ (g) fis e |
   d16^ (fis) r8 d4 d4 |
   g,16 g' a, g' ais, g' b, g' c, g' b, g' |
   c,4 e16 g c g r16 g r16 g |
-  b,4 r4 a'16 (g) fis e |
-  d16 (fis) r8 d4 d4 |
+  b,4 r4 a'16^ (g) fis e |
+  d16^ (fis) r8 d4 d4 |
   g,16 d' b d g,4 r4 |
   b16 g' d g b,8 g' a c |
   b,16 g' d g b4 r4 |
